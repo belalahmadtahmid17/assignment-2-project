@@ -1,0 +1,124 @@
+/* font styles */
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+/* header section styles */
+.header-section{
+  position: absolute;
+  background: linear-gradient(180deg, rgb(36, 34, 34),rgb(117, 117, 117,0)100%);
+  background-color: rgb(0, 0, 0);
+  background-repeat: repeat;
+  height: 1440px;
+  width: 100%;
+  
+}
+/*1. nav-bar styles */
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 650px;
+  margin-left:190px;
+  margin-right: 190px;
+  padding-top: 57px;
+}
+.nav-bar-items-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  padding: 4px;
+  margin: 0 10px;
+  line-height: 120%;
+  border: 1px solid rgb(255, 255, 255,0.1);
+  border-radius: 50px;
+}
+.nav-bar-items{
+  color: rgb(255, 255, 255);
+  background-color:rgb(36, 34, 34),rgb(117, 117, 117,0) ;
+  font-size: 25px;
+  font-weight: 300;
+  margin: 0px 20px;
+  width: 68px;
+  height: 22px;  
+}
+.nav-bar-fitness-container{
+  color: rgb(230, 83, 60);
+  font-size: 40px;
+  font-weight: 800;
+}
+.nav-home-btn, .banner-btn-1{
+  border-radius:46px ;
+  background-color: rgb(230, 83, 60);
+  height: 40px;
+  width: 100px;
+  margin-left: 0;
+  margin-right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+}
+.nav-serv-btn{
+  margin-left: 0;
+}
+/* banner section */
+.banner{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 500px;
+  margin-top: 70px;
+}
+.banner-text-container{
+  margin-left: 0px;
+  margin-bottom: 20px;
+}
+.banner-heading{
+  font-size: 78px;
+  font-weight: 900;
+  height: 282px;
+  width: 520px;
+  color: rgb(255, 255, 255);
+  padding-bottom: 20px;
+}
+.banner-description{
+  font-size: 16px;
+  color: rgb(255, 255, 255, 0.5);
+}
+.banner-img-contaienr{
+  height: 580px;
+  width: 349px;
+}
+.banner-btn-container{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.banner-btn-1{
+  padding: 20px;
+  width: 200px;
+  height: 20px;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(230, 83, 60);
+}
+.banner-btn-2{
+  padding: 20px;
+  width: 200px;
+  height: 20px;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  border: 1px solid white;
+  border-radius: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
