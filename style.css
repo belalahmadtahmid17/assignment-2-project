@@ -4,16 +4,15 @@
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+  margin: 0px;
 }
 /* header section styles */
 .header-section{
-  position: absolute;
-  background: linear-gradient(180deg, rgb(36, 34, 34),rgb(117, 117, 117,0)100%);
+  background: linear-gradient(rgb( 0, 0, 0),rgb(36, 34, 34), rgb( 0, 0, 0));
   background-color: rgb(0, 0, 0);
-  background-repeat: repeat;
-  height: 1440px;
+  height: 900px;
   width: 100%;
-  
+  background-size: cover;
 }
 /*1. nav-bar styles */
 .nav-bar {
@@ -40,7 +39,7 @@
 }
 .nav-bar-items{
   color: rgb(255, 255, 255);
-  background-color:rgb(36, 34, 34),rgb(117, 117, 117,0) ;
+  background-color:rgb(36, 34, 34),rgb(117, 117, 117,0);
   font-size: 25px;
   font-weight: 300;
   margin: 0px 20px;
@@ -91,6 +90,7 @@
 .banner-description{
   font-size: 16px;
   color: rgb(255, 255, 255, 0.5);
+  margin-top: 70px;
 }
 .banner-img-contaienr{
   height: 580px;
@@ -100,6 +100,7 @@
   display: flex;
   flex-direction: row;
   gap: 30px;
+  margin-top: 40px;
 }
 .banner-btn-1{
   padding: 20px;
@@ -121,4 +122,57 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.dancing-script-normal {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 90px;
+}
+/* Habits section */
+.habits{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+.habits-title{
+  color: rgb(255, 255, 255);
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+.habits-description{
+  text-align: center;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 20px;
+}
+.habits-items-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+.habit-item{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.habit-name{
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+}
+.habit-desc{
+  text-align: center;
+  font-size: 17px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+}
+.habit-pic{
+  border-radius: 100px;
 }
