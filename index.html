@@ -94,13 +94,60 @@
 <div class="bmi-c-container">
   <div class="bmi-chart-container">
     <h1 class="chart-title">BMI Calculator Chart</h1>
-    <table class="bmi-chart"></table>
+    <table class="bmi-chart">
+        <tr class="tr-1"><td>BMI</td>
+            <td>Weight Status</td></tr>
+        <tr>
+            <td>Below 18.5</td>
+            <td>Underweight</td>
+        </tr>    
+        <tr>
+            <td>18.5-24.9</td>
+            <td>Healthy</td>
+        </tr>
+        <tr>
+            <td>25.0-29.9</td>
+            <td>Overweight</td>
+        </tr>
+        <tr>
+            <td>30-and above</td>
+            <td>Obese</td>
+        </tr>
+    </table>
   </div>    
    <div class="bmi-calc-container">
     <h1 class="calculator-header">Calculate Your BMI</h1>
     <p class="calculator-description">Fill up your proper information below to calculate your BMI</p>
-    <form action="" class="calculator-form"></form>
-    <button class="calculator-btn"></button>
+    <form action="" class="calculator-form">
+        <div class="form-line-1">
+            <label for="height" class="l-1"></label>
+            <input type="number" id="height" placeholder="Height/cm">
+            <label for="weight"></label>
+            <input type="number" id="weight" placeholder="Weight/kg">
+        </div>
+        <div class="form-line-2">
+            <label for="age"></label>
+            <input type="number" id="age" placeholder="Age">
+             <label for="sex"></label>
+            <select name="sex" id="sex">
+            <option class="op" value="Sex">Sex</option>
+            <option class="op" value="Male">Male</option>
+            <option class="op" value="Female">Female</option>
+            <option class="op" value="Other">Other</option>
+            </select>
+        </div>
+        <div class="form-line-3">
+            <label for="activity"></label>
+            <select name="activity" id="activity">
+                <option value="activity" class="op">Not Active</option>
+                <option value="activity" class="op">Light Active</option>
+                <option value="activity" class="op">Moderately Active</option>
+                <option value="activity" class="op">Active</option>
+                <option value="activity" class="op">Highly Active</option>
+            </select>
+        </div>
+    </form>
+    <button class="calculator-btn calculator-btn-extraa">Calculate</button>
    </div>
 </div>
 </div>
