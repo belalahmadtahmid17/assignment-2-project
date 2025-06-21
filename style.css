@@ -6,6 +6,10 @@
   font-style: normal;
   margin: 0px;
 }
+/* body-styles */
+.body-styles{
+  background-color: rgb( 0, 0, 0);
+}
 /* header section styles */
 .header-section{
   background: linear-gradient(rgb( 0, 0, 0),rgb(36, 34, 34), rgb( 0, 0, 0));
@@ -506,4 +510,60 @@ background: url(images/trainer6.png);
   font-size: 20px;
   color: rgb(255, 255, 255);
 }
-
+/* footer section styles */
+.footer-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color:rgb(26, 26, 26);
+  height: 700px;
+  margin: 40px auto 0px auto;
+}
+.footer-text-container{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ gap: 150px;
+}
+.footer-text-1{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin: 20px auto;
+}
+.f-header{
+  font-size: 60px;
+  color: rgb(230, 83, 60);
+}
+.f-desc{
+  font-size: 15px;
+  line-height: 30px;
+  color: rgb(255, 255, 255, 0.5);
+  font-weight: 400;
+}
+.footer-list{
+  display: flex;
+  flex-direction: column;
+  line-height: 10px;
+}
+.gs{
+  font-size: 40px;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+}
+.fl-item{
+  font-size: 20px;
+  color: rgb(255, 255, 255, 0.5);
+  font-weight: 400;
+}
+.footer-line{
+  width: 1000px;
+  height: 0px;
+  border: 2px solid rgb(255, 255, 255, 0.1);
+}
+.footer-ending{
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(255, 255, 255, 0.5);
+}
