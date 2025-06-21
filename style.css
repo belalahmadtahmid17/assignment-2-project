@@ -289,13 +289,13 @@
   justify-content: center;
   align-items: center;
 }
-.bmi-header{
+.bmi-header, .team-header{
   color: rgb(255, 255, 255);
   font-size: 50px;
   font-weight: 900;
   text-align: center;
 }
-.bmi-description, .calculator-description{
+.bmi-description, .calculator-description,.team-description{
   color: rgba(255, 255, 255, 0.5);
   font-size: 16px;
   font-weight: 400;
@@ -333,6 +333,7 @@
   border-color: rgb(230, 83, 60);
   width: 200px;
   height: 50px;
+  margin-bottom: 100px;
 }
 .bmi-chart{
   height: 268px;
@@ -384,5 +385,88 @@ table, th, td{
   background-color: rgb( 0, 0, 0) ;
 }
 #activity{
-  width: 720px;
+  width: 720px;}
+/* }team styles */
+.team-description-extraa{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  /* margin-bottom: 100px; */
+}
+.team-img-container{
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  row-gap: 20px;
+  column-gap: 35px;
+  justify-content: center;
+  align-self: center;
+  margin: 0 auto;
+  background: rgb(255, 255, 255, 0.1);
+  height: 560px;
+  width: 1000px;
+  padding: 20px 20px 20px 2px;
+  border-radius: 15px;
+}
+.team-container{
+  gap: 10px;
+  height: 900px; 
+}
+.team-img-1,
+.team-img-2,
+.team-img-3,
+.team-img-4,
+.team-img-5,
+.team-img-6{
+  height: 270px;
+  width: 320px;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-left: 0px;
+}
+.team-text{
+  padding-top: 180px;
+  padding-left: 20px ;  
+  margin-left: 0px;
+}
+.team-img-c{
+  height: 270px;
+  width: 320px;
+}
+.team-name{
+ color: rgb(255, 255, 255);
+ font-size: 20px;
+ font-weight: 800;
+ margin-bottom: 0px;
+ margin-left: 0px;
+}
+.team-desc{
+  color: rgb(255, 255, 255, 0.5);
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+.team-img-1{
+  background: url(images/trainer1.png);
+  background-size: cover;
+}
+.team-img-2{
+ background:url(images/trainer2.png) ;
+  background-size: cover;
+}
+.team-img-3{
+ background: url(images/trainer3.png);
+  background-size: cover;
+}
+.team-img-4{
+background: url(images/trainer4.png);
+ background-size: cover;
+}
+.team-img-5{
+background: url(images/trainer5.png);
+ background-size: cover;
+}
+.team-img-6{
+background: url(images/trainer6.png);
+ background-size: cover;
 }
