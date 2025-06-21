@@ -51,7 +51,8 @@
   font-size: 40px;
   font-weight: 800;
 }
-.nav-home-btn, .banner-btn-1, .mile-btn, .calculator-btn{
+.nav-home-btn, .banner-btn-1,
+ .mile-btn, .calculator-btn{
   border-radius:46px ;
   background-color: rgb(230, 83, 60);
   height: 40px;
@@ -295,7 +296,8 @@
   font-weight: 900;
   text-align: center;
 }
-.bmi-description, .calculator-description,.team-description{
+.bmi-description, .calculator-description,
+.team-description,.contact-description{
   color: rgba(255, 255, 255, 0.5);
   font-size: 16px;
   font-weight: 400;
@@ -320,7 +322,7 @@
   flex-direction: column;
   justify-content: left;
 }
-.chart-title, .calculator-header{
+.chart-title, .calculator-header,.contact-title{
   font-size: 30px;
   font-weight: 900;
   color: rgb(255, 255, 255);
@@ -470,3 +472,38 @@ background: url(images/trainer5.png);
 background: url(images/trainer6.png);
  background-size: cover;
 }
+/* contact section styles */
+.contact-container{
+ display: flex;
+ margin: 0 auto;
+ justify-content: center;
+ align-items: center;
+ height: 300px;
+ background-color: rgb(255, 255, 255, 0.1);
+ width: 1000px;
+ border-radius: 40px;
+}
+.contact-text{
+  text-align: center;
+}
+.contact-bar-container{
+ display: flex;
+ justify-content: center;  
+ gap: 10px;
+}
+.contact-bar{
+  height: 50px;
+  width: 700px;
+  border-radius: 35px;
+  font-size: 20px;
+  color: rgb(230, 83, 60);
+}
+.contact-btn{
+   border-radius:46px ;
+  background-color: rgb(230, 83, 60);
+  width:120px;
+  height: 55px;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+
