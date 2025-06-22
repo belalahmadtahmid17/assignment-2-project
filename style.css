@@ -86,6 +86,7 @@
 .banner-text-container{
   margin-left: 0px;
   margin-bottom: 20px;
+  transform: translateY(-110px);
 }
 .banner-heading{
   font-size: 78px;
@@ -136,6 +137,62 @@
   font-optical-sizing: auto;
   font-style: normal;
   font-size: 90px;
+}
+/* Image blur part styles */
+.img-blur-1-container{
+  height: 100px;
+  width: 200px;
+  border: 1px solid rgb(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(12px);
+  background-color: rgb(255, 255, 255, 0.1);
+  transform: translateX(230px) translateY(-430px);
+}
+.img-blur-1-title{
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+  font-size: 40px;
+  text-align: center;
+  transform: translateY(-10px);
+}
+.img-blur-1-desc{
+  text-align: center;
+  font-size: 15px;
+  color: rgb(255, 255, 255, 0.5);
+  font-weight: 400;
+  transform: translateY(-35px);
+}
+.img-blur-2-container{
+  height: 100px;
+  width: 200px;
+  border: 1px solid rgb(255, 255, 255, 0.1);
+  border-radius: 12px;
+  backdrop-filter: blur(12px);
+  background-color: rgb(255, 255, 255, 0.1);
+  transform: translateX(-100px) translateY(-280px);
+}
+.img-blur-2-circle{
+  background-color: rgb(230, 83, 60);
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  transform: translateY(30px) translateX(10px);
+}
+.img-blur-2-title{
+   color: rgb(255, 255, 255);
+  font-weight: 900;
+  font-size: 40px;
+  text-align: center;
+}
+.img-blur-2-desc{
+   text-align: center;
+  font-size: 15px;
+  color: rgb(255, 255, 255, 0.5);
+  font-weight: 400;
+  transform: translateY(-25px);
+}
+.img-blur-2-text-container{
+  transform: translateY(-50px) translateX(20px);
 }
 /* Habits section */
 .habits{
