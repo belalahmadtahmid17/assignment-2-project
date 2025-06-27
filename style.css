@@ -358,7 +358,8 @@
   text-align: center;
 }
 .bmi-description, .calculator-description,
-.team-description,.contact-description{
+.team-description,.membership-description,
+.offer-desc{
   color: rgba(255, 255, 255, 0.5);
   font-size: 16px;
   font-weight: 400;
@@ -383,7 +384,8 @@
   flex-direction: column;
   justify-content: left;
 }
-.chart-title, .calculator-header,.contact-title{
+.chart-title, .calculator-header,
+.membership-title, .offer-title{
   font-size: 30px;
   font-weight: 900;
   color: rgb(255, 255, 255);
@@ -533,39 +535,75 @@ background: url(images/trainer5.png);
 background: url(images/trainer6.png);
  background-size: cover;
 }
-/* contact section styles */
-.contact-container{
+/* membership section styles */
+.membership-container{
  display: flex;
+ flex-direction: column;
  margin: 0 auto;
  justify-content: center;
  align-items: center;
- height: 300px;
+ height: 700px;
  background-color: rgb(255, 255, 255, 0.1);
  width: 1000px;
  border-radius: 40px;
+ gap: 50px;
 }
-.contact-text{
+.membership-text{
   text-align: center;
 }
-.contact-bar-container{
+.membership-bar-container{
  display: flex;
  justify-content: center;  
  gap: 10px;
 }
-.contact-bar{
+.membership-bar{
   height: 50px;
   width: 700px;
   border-radius: 35px;
   font-size: 20px;
   color: rgb(230, 83, 60);
 }
-.contact-btn{
+.membership-btn{
    border-radius:46px ;
   background-color: rgb(230, 83, 60);
   width:120px;
   height: 55px;
   font-size: 20px;
   color: rgb(255, 255, 255);
+}
+.member-offers-container{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.member-offers{
+  height: 300px;
+  width: 300px;
+  border: 2px solid rgb(255, 255, 255, 0.5);
+  border-radius: 20px;
+}
+.offer-title,.offer-desc{
+  text-align: center;
+  /* padding: 3px; */
+  margin-bottom: 0px;
+}
+.offer-price-1{
+ text-align: center;
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  margin-top: 40px;
+}
+.offer-price-2{
+ text-align: center;
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  margin-top: 42px;
+} 
+.offer-price-3{
+  text-align: center;
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+  margin-top: 25px;
 }
 /* footer section styles */
 .footer-container{
