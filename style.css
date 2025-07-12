@@ -49,6 +49,7 @@
   margin: 0px 20px;
   width: 68px;
   height: 22px;  
+  list-style: none;
 }
 .nav-bar-fitness-container{
   color: rgb(230, 83, 60);
@@ -132,6 +133,9 @@
   justify-content: center;
   align-items: center;
 }
+.banner-play-container{
+    color: rgb(255, 255, 255);
+  }
 .dancing-script-normal {
   font-family: "Dancing Script", cursive;
   font-optical-sizing: auto;
@@ -563,6 +567,9 @@ background: url(images/trainer6.png);
   font-size: 20px;
   color: rgb(230, 83, 60);
 }
+input::placeholder{
+  text-align: center;
+}
 .membership-btn{
    border-radius:46px ;
   background-color: rgb(230, 83, 60);
@@ -591,19 +598,19 @@ background: url(images/trainer6.png);
  text-align: center;
   font-size: 40px;
   color: rgb(255, 255, 255);
-  margin-top: 40px;
+  margin-top: 34px;
 }
 .offer-price-2{
  text-align: center;
   font-size: 40px;
   color: rgb(255, 255, 255);
-  margin-top: 42px;
+  margin-top: 34px;
 } 
 .offer-price-3{
   text-align: center;
   font-size: 40px;
   color: rgb(255, 255, 255);
-  margin-top: 25px;
+  margin-top: 10px;
 }
 /* footer section styles */
 .footer-container{
@@ -662,3 +669,224 @@ background: url(images/trainer6.png);
   font-weight: 400;
   color: rgb(255, 255, 255, 0.5);
 }
+/* hamburger styler */
+.checkbtn{
+  color: rgb(255, 255, 255);
+  float: right;
+  margin-right: 15%;
+  margin-top: 4.2%;
+  cursor: pointer;
+  font-size: 40px;
+  display: none;
+}
+#check{
+  display: none;
+}
+@media screen and (max-width:576px){
+  /* navbar styles */
+  .checkbtn{
+    display: block;
+  }
+  .nav-bar-items-container{
+    width: 100%;
+  }
+  .nav-bar-items{
+  display: block;
+  }
+  #check:checked ~ li{
+    left: 0;
+  }
+  .nav-bar-fitness-container{
+    transform: translateX(-160px) translateY(-35px); 
+    font-size: 45px;
+  }
+  .nav-bar-items-container{
+    display: none ;
+  }
+  .nav-bar{
+    display: block;
+  }
+/* banner styles */
+.banner{
+ display: flex;
+ flex-direction: column;
+ gap: 20px;
+ justify-content: center;
+}
+.banner-text-container{
+  font-size: 80%;
+  margin: 0 auto;
+}
+.banner-img-container{
+  margin-left: 15px;
+  margin-right: 0px;
+}
+.img-blur-2-circle{
+  display: flex;
+}
+.banner-play-container{
+    color: rgb(255, 255, 255);
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+  }
+/*habits section styles  */
+.habits{
+   transform: translateY(500px);
+}
+.habits-items-container{
+  display: flex;
+  flex-direction: column;
+}
+/* mile section styles */
+.mile-container{
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  width: 90%;
+  transform: translateY(500px);
+  gap: 30px;
+}
+.mile-btn{
+margin: 0 auto;
+padding: 10px;
+}
+/* training section */
+.training-container{
+  flex-direction: column;
+  width: 100%;
+  transform: translateY(500px);
+  margin-left: 10px;
+  gap: 100px;
+  margin:0 auto ;
+}
+.training-title,.training-description{
+  text-align: center;
+}
+.training-img-container{
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 20px;
+  flex-direction: row;
+  row-gap: 5px;
+}
+.training-img-line-1{
+ flex-direction: column;
+ gap: 5px;
+}
+.training-img-line-2{
+  flex-direction: column;
+  gap: 5px;
+}
+.training-img-1,
+.training-img-2,
+.training-img-3
+{
+height: 300px;
+width: 250px;
+}
+.training-img-4,
+.training-img-5,
+.training-img-6
+{
+  width: 250px;
+  height: 147px;
+}
+/* bmi section styles */
+.bmi-container{
+  transform: translateY(550px);
+}
+.bmi-description{
+  margin-left: 10px;
+}
+.bmi-c-container{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.bmi-chart-container{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.calculator-header,
+.calculator-description{
+margin-left: 10px;
+}
+#sex,#age,#height, #weight{
+  width: 260px;
+}
+#activity{
+  width: 530px;
+}
+.calculator-btn-extraa{
+  margin-left: 20px;
+}
+/* team section styles */
+.team-container{
+  transform: translateY(650px);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+
+}
+.team-img-container{
+  display: flex;
+  flex-direction: column;
+  transform: translateY(20px);  
+  margin-left: 90px ;
+  justify-content: center;
+  padding-left: 35px;
+  height: 1800px;
+  width: 334px;
+  }
+/* membership section styles */
+.membership-container{
+  transform: translateY(1850px);
+  height: 1400px;
+  width: 480px;
+}
+.member-offers-container{
+  display: flex;
+  flex-direction: column;
+}
+.membership-bar-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 2px ;
+}
+.membership-bar{
+  width: 440px;
+}
+input::placeholder{
+  text-align: center;
+}
+.membership-text{
+  width: 380px;
+  text-align: center;
+  margin: 0 auto;
+}
+.member-offers{
+  width: 420px ;
+}
+/* footer section styles */
+.footer-container{
+  transform: translateY(1900px);
+  height: 1400px;
+  gap: 10px;
+}
+.footer-text-container{
+  display: block;
+  column-gap: 10px;
+}
+.footer-line{
+  width: 500px;
+}
+}
+
+
+
+
